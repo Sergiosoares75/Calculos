@@ -4,13 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/// <summary>
-/// Implementa operações aritméticas.
-/// </summary>
-internal class Aritmetica
+namespace Calculos
 {
-    public int Somar(int x, int y)
+    internal class Aritmetica
     {
-        return x + y;
+        public int Somar(int x, int y)
+        {
+            return x + y;
+        }
+        public int Subtrair(int x, int y)
+        {
+            return x - y;
+        }
+
     }
+
 }
